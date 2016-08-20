@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@drawable/selector_row_recycler"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!---->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:padding="@dimen/marg_layout_row_opcion_main"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marg_image_layout_row_opcion_main"
+            android:src="@mipmap/icon_vela"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/titulo_gris"
+            android:padding="@dimen/padd_texto_layout_row_opcion_main"
+            android:textSize="@dimen/sp_texto_layout_row_opcion"
+            android:id="@+id/txt_row_beneficios"
+            android:text="@string/titulo_beneficios"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_separator"
+        android:background="@color/separador_celeste"/>
+
+</LinearLayout>

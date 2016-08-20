@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_margin">16dp</dimen>
+
+    <!--texto de botones-->
+    <dimen name="txt_btn_verificar">16sp</dimen>
+
+    <!--tamaño text in textview-->
+    <dimen name="sp_texto_layout_row_opcion">17sp</dimen>
+    <dimen name="sp_texto_layout_mensaje">18sp</dimen>
+    <dimen name="sp_texto_principal_layout_mensaje">24sp</dimen>
+    <dimen name="sp_texto_boton_solictarvisita">18sp</dimen>
+    <dimen name="sp_texto_registroinstalador">12sp</dimen>
+    <dimen name="sp_texto_nroregistroinstalador">16sp</dimen>
+    <dimen name="sp_rowrecyclerinstalador_costobasico">14sp</dimen>
+    <dimen name="sp_activityfiltro_titulos">17sp</dimen>
+    <dimen name="sp_texto_contentdomicilio_distrito">16sp</dimen>
+
+    <!--padding layout-->
+    <dimen name="padd_layout_verificar">17dp</dimen>
+    <dimen name="padd_texto_layout_row_opcion_main">10dp</dimen>
+    <dimen name="padd_texto_superior">17dp</dimen>
+    <dimen name="padd_whitecircle">1dp</dimen>
+    <dimen name="padd_checkbox">10dp</dimen>
+
+    <!--margin -->
+    <dimen name="marg_layout_row_opcion_main">10dp</dimen>
+    <dimen name="marg_image_layout_row_opcion_main">10dp</dimen>
+    <dimen name="marg_txt_linear_mensaje">10dp</dimen>
+    <dimen name="marg_btn_inferior">10dp</dimen>
+    <dimen name="marg_icon_toolbar">8dp</dimen>
+    <dimen name="marg_bottom_registronroinstalador">2dp</dimen>
+    <dimen name="marg_left_rowrecyclerinstalador_registro">7dp</dimen>
+    <dimen name="marg_contentdomicilio">15dp</dimen>
+
+    <!--radius-->
+    <dimen name="rad_caja_busqueda">8dp</dimen>
+    <dimen name="rad_rectangle">5dp</dimen>
+
+    <!--height-->
+    <dimen name="height_view_row_opcion_main">2dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="height_separator">1dp</dimen>
+
+
+</resources>

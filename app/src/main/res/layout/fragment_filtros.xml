@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmd.projectmvp.presentation.fragment.FiltrosFragment"
+    tools:showIn="@layout/activity_filtros">
+    <!--tools:context="com.gmd.gasnatural.presentation.activity.FiltrosActivity"-->
+    <include layout="@layout/toolbar_filtros"></include>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:layout_marginTop="?android:attr/actionBarSize">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/content_domicilioinstalador"></include>
+            <include layout="@layout/content_tipoinstalador"></include>
+            <include layout="@layout/content_categoriasinstalador"></include>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

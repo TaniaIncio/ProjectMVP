@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue_background</color>
+    <color name="colorPrimaryDark">@color/blue_background</color>
+    <color name="colorAccent">@color/blue_background</color>
+    <color name="blue_background">#00296b</color>
+
+    <!--color textview-->
+    <color name="titulo_gris">#898989</color>
+    <color name="separador_celeste">#e1ecf6</color>
+    <color name="separador_gris">#EEEEEE</color>
+    <color name="btn_verificar">#0092d3</color>
+    <color name="titulo_appintro">#777777</color>
+    <color name="titulo_azul_appintro">#0d98d6</color>
+    <color name="linear_mensaje">#0092d3</color>
+    <color name="celeste_app">#0092d3</color>
+
+    <color name="ripple_linear_beneficios">#4d0092d3</color>
+    <color name="ripple_button_verificar">#f2e1ecf6</color>
+    <color name="btn_solictar_visita">#FAFAFA</color>
+    <color name="txt_row_nombreempresa">#1b5091</color>
+    <color name="red_900">#B71C1C</color>
+    <color name="gray_textview_app">#787878</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_800">#424242</color>
+    <color name="blue_800">#1565C0</color>
+
+    <color name="black_transp_65">#A6000000</color>
+    <color name="black_transp_5">#0D000000</color>
+
+    <!--old porject-->
+    <color name="white">#fff</color>
+    <color name="gris_etiqueta_negra">#626262</color>
+    <color name="gris_fondo">#f0f0f0</color>
+    <color name="celeste_boton">#008be8</color>
+    <color name="azul_boton_saltar">#001a4c</color>
+
+
+
+
+</resources>

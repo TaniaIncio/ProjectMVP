@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+      /*  classpath 'me.tatarka:gradle-retrolambda:3.2.5'*/
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+apply from: 'dependencies.gradle'
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+/*signingConfigs {
+    release {
+        try {
+            storeFile file("myapp.keystore")
+            storePassword KEYSTORE_PASSWORD
+            keyAlias "thekey"
+            keyPassword KEY_PASSWORD
+        }
+        catch (ex) {
+            throw new InvalidUserDataException("You should define KEYSTORE_PASSWORD and KEY_PASSWORD in gradle.properties.")
+        }
+    }
+}*/

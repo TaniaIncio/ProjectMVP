@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_elements_recycler">
+        <item>@string/titulo_beneficios</item>
+        <item>@string/titulo_calculadora</item>
+        <item>@string/titulo_procesoinstalacion</item>
+        <item>@string/titulo_costoinstalacion</item>
+        <item>@string/titulo_listaconcesionarios</item>
+        <item>@string/titulo_orienta</item>
+        <item>@string/titulo_fise</item>
+        <item>@string/titulo_quejas</item>
+    </array>
+</resources>

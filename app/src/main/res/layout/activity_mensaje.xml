@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/linear_mensaje"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".presentation.activity.MensajeVerificandoActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marg_txt_linear_mensaje"
+        android:src="@mipmap/esperar_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="@dimen/sp_texto_layout_mensaje"
+        android:layout_margin="@dimen/marg_txt_linear_mensaje"
+        android:text="@string/title_esperar"/>
+</LinearLayout>

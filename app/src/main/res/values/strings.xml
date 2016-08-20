@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">GasNatural</string>
+
+    <string name="titulo_toolbar">Gas Natural en mi hogar</string>
+
+    <!--Menu opciones gas natural-->
+    <string name="titulo_beneficios">Beneficios del gas natural</string>
+    <string name="titulo_calculadora">Calculadora del ahorro</string>
+    <string name="titulo_procesoinstalacion">Proceso de instalacion</string>
+    <string name="titulo_costoinstalacion">Costo de instalacion basica</string>
+    <string name="titulo_listaconcesionarios">Lista de concesionarios</string>
+    <string name="titulo_orienta">Osinergmin te orienta</string>
+    <string name="titulo_quejas">Quejas al servicio</string>
+    <string name="titulo_fise">Beneficios FISE</string>
+
+    <!--titulo de botones-->
+    <string name="btn_verificar_red">Verificar si la red pasa por mi casa</string>
+    <string name="btn_solicitar_visita">Solicitar visita</string>
+    <string name="btn_solicitar_ahorro">Calcular Ahorro</string>
+    <string name="btn_continuar">Continuar</string>
+
+
+    <!--titulos intro app-->
+    <string name="titulo_slide1">AHORRO</string>
+    <string name="contenido_slide1">Con el gas natural ahorras entre el 50% y 90% de tus gastos mensuales.
+¡Imagina tu ahorro en todo el año!</string>
+
+    <!--titulos action bar-->
+    <string name="titulo_omitir">Omitir</string>
+    <string name="title_activity_opciones_main">Gas Natural en mi hogar</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map_ubicacion">Map</string>
+    <string name="titulo_aplicar">Aplicar</string>
+
+    <!--titulos mensajes-->
+    <string name="title_esperar">Un momento por favor estamos estamos verificando si la red de gas natural pasa
+    por su hogar</string>
+    <string name="title_red_gas">¡La red de gas natural pasa por su hogar!</string>
+    <string name="title_red_gas_fise">¡La red de gas natural pasa por tu hogar y calificas como beneficiario para recibir financiamiento para la instalación de gas natural!</string>
+    <string name="title_red_gas_promocion">¡La red de gas natural pasa por tu hogar y calificas como beneficiario FISE y de promocion</string>
+    <string name="title_red_gas_nopasa">La red de gas natural no pasa por su hogar!</string>
+    <string name="title_solicitar_visita">Usted puede solicitar la visita de un instalador</string>
+    <string name="title_solicitar_visita_fise">Este beneficio es otorgado por el fondo de Inclusión Social Energético (FISE) para que puedas realizar la instalación sin cuota inicial ni interes, y lo puedas pagar hasta en 5 años</string>
+    <string name="title_solicitar_visita_promocion">Este beneficio es otorgado por el fondo de Inclusión Social Energético (FISE) para que puedas realizar la instalación sin cuota inicial ni interes, y lo puedas pagar hasta en 5 años</string>
+    <string name="title_solicitar_visita_nopasa">Usted no puede solicitar la visita de un instalador</string>
+
+    <!--titulos txtview-->
+    <string name="txt_nogracias">No gracias</string>
+    <string name="title_terminos_condiciones">Terminos y Condiciones</string>
+    <string name="txt_resultados">Resultados</string>
+    <string name="txt_registro">Registro N°</string>
+    <string name="txt_costobasico_instalacion">Costo básico de instalacion</string>
+    <string name="txt_domicilio_instalador">Domicilio del instalador</string>
+    <string name="txt_departamento">Departamento</string>
+    <string name="txt_distrito">Distrito</string>
+    <string name="txt_contenttipoinstalador_tipoinstalador">Tipo de instalador</string>
+    <string name="txt_contenttipoinstalador_todos">Todos</string>
+    <string name="txt_contenttipoinstalador_pnatural">Persona natural</string>
+    <string name="txt_contenttipoinstalador_pjuridica">Persona jurídica</string>
+    <string name="txt_contentcategoriasinstalador_categorias">Categorias</string>
+    <string name="txt_contentcategoriasinstalador_opc1">Instalaciones internas residenciales y comerciales</string>
+    <string name="txt_contentcategoriasinstalador_opc2">Instalaciones internas residenciales y comerciales
+    (sin limite de consumo)</string>
+    <string name="txt_contentcategoriasinstalador_opc3">Instalaciones internas residenciales,comerciales e industriales</string>
+    <!--titulos activitys-->
+    <string name="titulo_lista_instaladores">Lista de Instaladores</string>
+    <string name="titulo_filtros">Filtros</string>
+
+
+    titulo_lista_instaladores
+    <!--placeholders-Ahorro-->
+    <string name="precio_placeholder">Costo del balón</string>
+    <string name="dias_placeholder">Duración del balón</string>
+    <string name="dias">Días</string>
+    <string name="precio">Precio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--old project-->
+    <string name="btn.si">Si</string>
+    <string name="btn.no">No</string>
+
+</resources>

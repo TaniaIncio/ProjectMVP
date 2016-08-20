@@ -1,0 +1,22 @@
+
+ext {
+    supportLibrayVersion = '23.3.0'
+    butterknifeVersion = '7.0.1'
+    appintroVersion = '4.0.0'
+    playservicesVersion = '8.4.0'
+    retrolambdaVersion = '3.2.5'
+    volleyVersion = '1.0.19'
+    gsonVersion = '2.5'
+    supportDependencies = [
+            appcompat: "com.android.support:appcompat-v7:${supportLibrayVersion}",
+            design      : "com.android.support:design:${supportLibrayVersion}",
+            butterknife : "com.jakewharton:butterknife:${butterknifeVersion}",
+            cardview : "com.android.support:cardview-v7:${supportLibrayVersion}",
+            appintro : "com.github.paolorotolo:appintro:${appintroVersion}",
+            play_services : "com.google.android.gms:play-services:${playservicesVersion}",
+            retrolambda : "me.tatarka:gradle-retrolambda:${retrolambdaVersion}",
+            volley : "com.mcxiaoke.volley:library:${volleyVersion}",
+            gson: "com.google.code.gson:gson:${gsonVersion}"
+
+    ]
+}

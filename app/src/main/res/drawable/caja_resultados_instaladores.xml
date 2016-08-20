@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/linear_mensaje"></solid>
+    <corners android:radius="@dimen/rad_caja_busqueda"></corners>
+    <padding android:bottom="@dimen/rad_caja_busqueda"
+        android:top="@dimen/rad_caja_busqueda"
+        android:left="@dimen/rad_caja_busqueda"
+        android:right="@dimen/rad_caja_busqueda"></padding>
+</shape>
